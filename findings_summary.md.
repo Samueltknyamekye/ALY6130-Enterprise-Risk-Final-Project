@@ -1,0 +1,9 @@
+# Findings Summary
+
+Three competitive risks were assessed for Apple's proposed acquisition of Netflix.
+
+- R1 Regulatory and antitrust, score 63, High. Expected loss 12.8 billion, P95 40.9 billion.
+- R2 Subscriber churn, score 56, High. Expected first year revenue at risk 1.9 billion, P95 4.4 billion.
+- R3 Cybersecurity and data integration, score 40, Medium. Expected annual loss 0.20 billion, P99 1.41 billion.
+
+Recommendation: the deal is viable, but the regulatory path governs the timeline and the downside, so proceed only with antitrust remedies prepared and a contingency reserve in place.
