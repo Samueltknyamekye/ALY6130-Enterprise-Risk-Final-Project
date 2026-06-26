@@ -1,0 +1,4 @@
+risk,expected_loss_B,p95_loss_B
+R1 Regulatory,12.8,40.92
+R2 Churn,1.91,4.37
+R3 Cyber,0.203,0.811

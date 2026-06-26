@@ -1,0 +1,50 @@
+{
+  "churn_base_rate": 0.22016666666666668,
+  "LogReg_auc": 0.7128,
+  "LogReg_acc": 0.6544,
+  "RandomForest_auc": 0.6935,
+  "RandomForest_acc": 0.7022,
+  "rf_report": {
+    "0": {
+      "precision": 0.8438985736925515,
+      "recall": 0.7585470085470085,
+      "f1-score": 0.7989497374343586,
+      "support": 1404.0
+    },
+    "1": {
+      "precision": 0.36988847583643125,
+      "recall": 0.5025252525252525,
+      "f1-score": 0.4261241970021413,
+      "support": 396.0
+    },
+    "accuracy": 0.7022222222222222,
+    "macro avg": {
+      "precision": 0.6068935247644913,
+      "recall": 0.6305361305361306,
+      "f1-score": 0.6125369672182499,
+      "support": 1800.0
+    },
+    "weighted avg": {
+      "precision": 0.7396163521642051,
+      "recall": 0.7022222222222222,
+      "f1-score": 0.7169281185392707,
+      "support": 1800.0
+    }
+  },
+  "top_features": [
+    "content_cost_ratio",
+    "price_increase_pct",
+    "tenure_months",
+    "engagement_hours"
+  ],
+  "R1_expected_loss_B": 12.8,
+  "R1_sd_B": 13.38,
+  "R1_p95_B": 40.92,
+  "R1_p50_B": 8.91,
+  "R2_expected_revloss_B": 1.91,
+  "R2_p95_revloss_B": 4.37,
+  "R2_expected_subs_lost_M": 26.6,
+  "R3_expected_ale_B": 0.203,
+  "R3_p95_ale_B": 0.811,
+  "R3_p99_ale_B": 1.406
+}

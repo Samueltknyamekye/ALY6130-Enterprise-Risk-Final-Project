@@ -1,0 +1,4 @@
+risk_id,risk,category,likelihood,impact,score,band
+R1,Regulatory and antitrust,"External, regulatory",7,9,63,High
+R2,Subscriber churn and competitive response,"Business, financial",7,8,56,High
+R3,Cybersecurity and data integration,"Technological, infosec",5,8,40,Medium
