@@ -2,7 +2,7 @@
 
 A Competitive Intelligence and Quantitative Risk Analytics Approach.
 
-**Course:** ALY 6130, Enterprise Risk Management, Northeastern University
+**Course:** ALY 6130 Enterprise Risk Management, Northeastern University
 **Team:** Samuel Tweneboah-Kodua Nyamekye, Adebukola Fadina, Sandeep Kaur
 
 ## Overview
@@ -19,7 +19,7 @@ The quantitative work covers probability distributions and expected loss, a mach
 
 ## Data
 
-No real dataset exists for a hypothetical acquisition, so the analysis uses **synthetic data** that simulates the combined business. The generation process, parameters, and assumptions are documented in `build_analysis.py` and in `notebooks/quantitative_analysis.ipynb`. All draws use a fixed seed (42), so every figure and number reproduces exactly.
+No real dataset exists for this hypothetical acquisition, so the analysis uses synthetic data that simulates the combined business. The generation process, parameters, and assumptions are documented in `build_analysis.py` and in `notebooks/quantitative_analysis.ipynb`. All draws use a fixed seed (42), so every figure and number reproduces exactly.
 
 ## Repository structure
 
@@ -42,30 +42,3 @@ enterprise-risk-project/
     ├── final_report.pdf       # the full assessment
     └── ALY6130_Presentation.pptx
 ```
-
-## How to run
-
-1. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Regenerate the data, models, and figures:
-
-   ```bash
-   python build_analysis.py
-   ```
-
-3. Open the notebooks in order, from the `notebooks` folder, and run all cells:
-
-   ```bash
-   jupyter notebook
-   ```
-
-   The notebooks read from `../data` and `../figures`, so run them from inside the `notebooks` folder.
-
-## Notes
-
-- The notebooks ship with their outputs and figures embedded, so they render fully even before re-running.
-- The methods draw on Fleisher and Bensoussan (2015) for the competitive intelligence frameworks, the FAIR model (Freund & Jones, 2014) for the cyber loss model, and CRISP-DM (Chapman et al., 2000) for the indicator design. Full references are in the report.
